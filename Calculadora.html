@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+ <html>
+
+ <head>
+
+ <title>Calculadora - JAVASCRIPT</title>
+
+ </head>
+
+ <body>
+
+ <h1>CALCULADORA JAVASCRIPT</h1>
+
+ <form>
+
+ <p>Numero 1: <input type="text" name="n1"></p>
+
+ <p>Numero 2: <input type="text" name="n2"></p>
+
+ <p>Numero 3: <input type="text" name="n3"></p>
+
+ <p>Numero 4: <input type="text" name="n4"></p>
+
+ <p>Saída: <input type="text" name="saida" disabled></p>
+
+ <hr>
+
+ <input type="button" name="btcalc" value="SOMA" onclick="alert('Soma: '+(parseFloat(n1.value)+parseFloat(n2.value)+parseFloat(n3.value)+parseFloat(n4.value)));
+
+ saida.value = (parseFloat(n1.value)+parseFloat(n2.value)+parseFloat(n3.value)+parseFloat(n4.value));
+
+ ">
+
+  <input type="button" name="btsub" value="SUBTRAÇÃO" onclick="alert('Subtração: '+((n1.value)-(n2.value)-(n3.value)-(n4.value)));
+
+ saida.value = ((n1.value)-(n2.value)-(n3.value)-(n4.value));
+
+ ">
+
+  <input type="button" name="btmult" value="MULTIPLICAÇÂO" onclick="alert('Multiplicação: '+((n1.value)*(n2.value)*(n3.value)*(n4.value)));
+
+ saida.value = ((n1.value)*(n2.value)*(n3.value)*(n4.value));
+
+ ">
+
+  <input type="button" name="btdiv" value="DIVISÃO" onclick="alert('Divisão: '+((n1.value)/(n2.value)/(n3.value)/(n4.value)));
+
+ saida.value = ((n1.value)/(n2.value)/(n3.value)/(n4.value));
+
+ ">
+
+ <input type="button" name="btmed" value="MÉDIA" onclick="alert('Média: '+((parseFloat(n1.value)+parseFloat(n2.value)+parseFloat(n3.value)+parseFloat(n4.value))/4));
+
+ saida.value = ((parseFloat(n1.value)+parseFloat(n2.value)+parseFloat(n3.value)+parseFloat(n4.value))/4);
+
+ ">
+
+<hr>
+ </form>
+
+ </body>
+
+ </html>
